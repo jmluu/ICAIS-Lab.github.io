@@ -1,0 +1,15 @@
+.wp_search .search_logo {
+    width: 280px;
+    height: 100px;
+    float: left;
+	background:url(../../images/logo_s.png) no-repeat left center;
+}
+.wp_search .search_logo img {
+    display: none;
+}
+.wp_search .search_tabs .selected_item {
+    background-color: #002955;
+}
+.wp_search .input_submit .search_submit {
+    background: #002955;
+}

@@ -1,0 +1,131 @@
+@charset "UTF-8"; 
+/**
+ * [xLarge Screen for PC]
+ * >=1200
+ */
+@media screen and (max-width: 1409px) {
+	.logo-panel { margin-left: 15px;}
+	.wp-navi { position:relative; top:10%; width: 100%;}
+	.wp-container .wp-inner { margin:0 15px;}
+}
+
+@media screen and (max-width: 1365px) {
+	.main-nav-panel .wp-menu .menu-item {margin: 0 36px;}
+	.main-nav-panel .wp-menu .menu-item a.menu-link {padding: 0 2px 10px;}
+
+	.wp-post.post-4 .post-head { width: 16%;}
+	.wp-post.post-4 .post-body { width: 80%;}
+	.wp-post.post-4 .post-body .meta-summary { margin-right: 4%;}
+	.wp-post.post-5 .post-head { width: 15%;}
+	.wp-post.post-5 .post-body { width: 74.5%; padding: 30px 3%;}
+}
+/**
+ * [Large Screen for PC & Pad]
+ * 960~1199
+ */
+@media screen and (max-width: 1199px) {
+	.wp-header { padding: 30px 0;}
+	.main-nav-panel .wp-menu .menu-item { margin: 0 20px;}
+	.wp-container.box1 { padding: 50px 0;}
+	.wp-container.box2 { padding: 50px 0;}
+	.wp-footer .wp-inner { padding: 50px 0;}
+	
+	.wp-post.post-4 .post-head { width: 18%;}
+	.wp-post.post-5 .post-head { width: 18%;}
+}
+
+/**
+ * [Medium Screen for Pad]
+ * 768~959
+ */
+@media screen and (max-width: 959px) {
+	.focus-navigation { visibility: hidden;}
+	/**栏目列表**/
+	.wp-column-menu { width: 100%; float: none; margin: 0;}
+	.wp-column-news { float: none;}
+	.wp-column-news .column-news-box { margin: 0 6px;}
+	.column-head .column-anchor { padding: 6px;}
+	.column-head .column-anchor .column-switch { display: block;}
+	.column-head .column-anchor h3.anchor-title { font-size: 16px;}
+	.column-list-wrap li a { background-position: 10px 14px;}
+	.column-list-wrap li a, .column-list-wrap li.selected a.selected { background-position: 10px 14px;}
+	.column-list-wrap li a span { padding-top: 6px; padding-bottom: 6px;}
+	.column-body { display: none;}
+	.list-meta .column-title { font-size: 16px;}
+	.info-box { margin: 0 14px;}
+	.article { padding: 10px 0;}
+	.article h1.arti-title { padding: 5px 0;}
+	
+	/**主体布局**/
+	.wp-navi { width: 76%;}
+	.main-nav-panel .wp-menu .menu-item { margin: 0 10px;}
+	.main-nav-panel .wp-menu .menu-item a.menu-link { font-size: 20px;}
+	
+	.wp-post.post-4 .post-head { width: 100%;float: none;position: relative;}
+	.wp-post.post-4 .post-head .post-title {display: block;line-height: 40px;font-size: 24px; font-weight: normal; color: #333333; text-align: left; padding-top: 20px; background: url(../images/hh.png) no-repeat top left; letter-spacing: 6px; padding-bottom: 20px;}
+	.wp-post.post-4 .post-head .post-titles { display: block; line-height: 26px; font-size: 16px; font-weight: normal; color: #666666; text-align: left; position: absolute; top: 30px; left: 150px;}
+	.wp-post.post-4 .post-head .post-more { height: 36px; line-height: 36px; border: 1px solid #2e6da7; text-align: center; margin-top: 0; width: 128px; float: right; position: absolute; top: 20px; right: 0;}
+	.wp-post.post-4 .post-body { width: 100%; float: none;}
+	
+	.wp-post.post-5 .post-head { width: 100%;float: none;position: relative;}
+	.wp-post.post-5 .post-head .post-title {display: block;line-height: 40px;font-size: 24px;font-weight: normal;color: #333333;text-align: left;padding-top: 20px;background: url(../images/hh.png) no-repeat top left;letter-spacing: 6px;}
+	.wp-post.post-5 .post-head .post-titles { display: block; line-height: 26px; font-size: 16px; font-weight: normal; color: #666666; text-align: left; position: absolute; top: 30px; left: 150px;}
+	.wp-post.post-5 .post-head .post-titless { display: block; line-height: 30px; font-size: 20px; font-weight: normal; color: #333333; text-align: left; margin-top: 20px; margin-bottom: 20px;}
+	.wp-post.post-5 .post-head .post-more { height: 36px; line-height: 36px; border: 1px solid #2e6da7; text-align: center; margin-top: 0; width: 128px; float: right; position: absolute; top: 20px; right: 0;}
+	.wp-post.post-5 .post-body {width: 94%;float: none;}
+}
+
+/**
+ * [Small Screen for Smart Phone and Mini Pad]
+ * 480~767
+ */
+@media screen and (max-width: 767px) { 
+	body, p { font-size: 14px;}
+	a { font-size: 14px;}
+	.wp-header { padding: 0;}
+	.wp-navi { display: none;}
+	.wp-navi-slide { display: none; background-color: #eee;}
+	.wp-navi-slide .navi-slide-head { display: block;}
+	.wp-navi-slide .wp-menu { display: none;}
+	.main-nav-panel .wp-menu .menu-item { display: block; float: none; border-top: 1px solid #ddd; overflow: hidden;}
+	.main-nav-panel .wp-menu .menu-item a.menu-link { display: block; height: 39px; line-height: 39px; padding: 0 18px; color: #222; font-size: 15px; background-color: #fff;}
+	.main-nav-panel .wp-menu .menu-item a.menu-link:hover { text-decoration: none; color: #fff; background-color: #0C3C74}
+	.wp-main-page .content .cbox-left, .wp-main-page .content .cbox-right { width: 100%; float: none;}
+	.wp-header .wp-panel { margin: 0; float: none; clear: both; width: auto;}
+	.wp-header .logo-panel { position: relative;}
+	.wp-header .navi-aside-toggle-show { display: block;}
+	.logo-window { width: auto; margin: 0 34px; padding: 15px 0; text-align: center;}
+	.logo-window img { width: auto; max-width: 300px;}
+	.wp-banner .column-name { display: block;}
+	.list-meta .column-path, .list-meta .column-title { float: none;}
+	.list-meta .column-title { display: none;}
+	.list-meta .column-path { padding-left: 24px; background: url(img/sitemap-icon.png) no-repeat 0 4px;}
+	.list-meta .column-path .path-name { display: none;}
+	.wp_paging .pages_count, .wp_paging .page_jump { display: none;}
+	.info-box { margin: 0 10px;}
+	.article { padding: 6px 0;}
+	.article .arti-metas span { font-size: 14px;}
+	.article .arti-metas .read-options { display: inline-block;}
+	.article .entry { margin: 0;}
+	.wp_entry, .wp_entry p, .article .entry, .article .entry p { font-size: 14px;}
+	
+	.wp-post.post-4 .post-body .meta-picture { width: 100%; float: none;}
+	.wp-post.post-4 .post-body .meta-summary { margin-right: 0; width: 100%;}
+}
+
+/**
+ * [xSmall Screen for Smart Phone]
+ * 480~767
+ */
+@media screen and (max-width: 479px) { 
+	.info-box { margin: 0 6px;}
+	.wp-post.post-4 .post-head .post-titles { display:none;}
+	.wp-post.post-5 .post-head .post-titles { display:none;}
+}
+
+/**
+ * [Tiny Screen for Older Phone and Smart Phone]
+ * <319
+ */
+@media screen and (max-width: 339px) { 
+}
