@@ -18,7 +18,8 @@ table { border-collapse: collapse; border-spacing: 0;}
 .clearfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden;}
 .clearfix { display: block; 
 *zoom:1;}
-body, p { font: 14px/1 Microsoft YaHei; color: #333;}
+/* body, p { font: 14px/1 Microsoft YaHei; color: #333;} */
+body, p { font: 14px; color: #333;}
 body { position: relative;}
 a { text-decoration: none; color: #333; transition: all 0.2s ease-in-out;}
 a:hover { text-decoration: none; color: #2e6da7;}
@@ -160,7 +161,7 @@ a:hover { text-decoration: none; color: #2e6da7;}
 .list-meta .column-path { float: right; line-height: 24px; color: #053159;}
 .list-meta .column-path a { color: #053159;}
 .list-meta .column-path a:hover { color: #053159;}
-.column-news-con { padding: 10px 0; min-height:450px;}
+.column-news-con { padding: 10px 0; min-height:300px;}
 .column-news-list .column-news-item { display: block; position: relative; border-bottom: 1px dotted #b1b1b1; line-height: 30px; padding: 5px 0;}/**栏目新闻列表**/
 .column-news-list .column-news-item:hover { color: #053159;}
 .column-news-list .column-news-item .column-news-title { display: block; margin-right: 80px; font-size:15px;}
@@ -170,6 +171,8 @@ a:hover { text-decoration: none; color: #2e6da7;}
 .wp_entry p { margin-bottom: 5px;}
 .column-news-list .wp_entry img { vertical-align: middle; max-width: 100%; _width:expression(this.width > 800 ? "880px" : this.width);}   /**列表页文章图片大小限制**/
 .possplit { width:22px; background:url(../images/posslit.png) no-repeat center;}
+.column-news-list .wp_entry ol li p {font-family:calibri; font-size:20px;}
+
 
 /**文章页**/
 .info-box { margin: 0 20px;}
@@ -179,9 +182,10 @@ a:hover { text-decoration: none; color: #2e6da7;}
 .article .arti-metas { line-height: 16px; text-align: center; padding: 10px 0; border-bottom: 1px solid #e5e5e5;}
 .article .arti-metas span { display: inline-block; margin: 0 5px; font-size: 13px; color: #787878;} /**文章其他属性**/
 .article .entry { margin: 15px 20px; overflow: hidden; min-height:450px;} /**文章内容**/
-.article .entry, .article .entry p { line-height: 26px; font-size: 14px; text-align: justify;}
+.article .entry, .article .entry p { line-height: 26px; font-size: 16px; text-align: justify; text-indent: 2em;}
 .article .entry p { margin-bottom: 5px;}
-.article .entry .read img { vertical-align: middle; max-width: 100%; _width:expression(this.width > 1100 ? "1100px" : this.width); background: url(img/loading.gif) no-repeat center;}   /**文章阅读部分图片大小限制**/
+.article .entry .read img {width: 230px; height: 300px; float: left; padding-right: 25px; vertical-align: middle; max-width: 100%; _width:expression(this.width > 1100 ? "1100px" : this.width); background: url(img/loading.gif) no-repeat center;}   /**文章阅读部分图片大小限制**/
+
 
 /**底部**/
 .wp-footer { background: #053159;}
